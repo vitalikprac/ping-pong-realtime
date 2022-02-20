@@ -13,6 +13,8 @@ module.exports = {
   },
   plugins: ['react', 'prettier', 'simple-import-sort'],
   rules: {
+    'import/prefer-default-export': 'off',
+    'react/function-component-definition': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/require-default-props': 'off',
     'simple-import-sort/imports': 'warn',
